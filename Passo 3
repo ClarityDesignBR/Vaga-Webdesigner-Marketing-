@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passo 3</title><br>
+<body>
+    <style>
+        /* Estilos*/
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .wrap {
+            display: flex;
+            align-items: center;
+            border: 2px solid #333;
+            padding: 20px;
+            background-color: #f0f0f0;
+            max-width: 600px;
+            margin: 20px auto; /* Espaçamento entre os blocos wrap */
+        }
+
+		.top-menu {
+            display: flex;
+            align-items: center;
+            border: 2px solid #333;
+            padding: 20px;
+            background-color: #f0f0f0;
+            max-width: 600px;
+            margin: 20px auto; /* Espaçamento entre os blocos wrap */
+        }
+		
+        .logo {
+            width: 100px;
+            height: 60px;
+            margin-right: 20px;
+            background-color: #ccc; /* A cor da logo, substitua pelo caminho da imagem da logo */
+        }
+
+        .menu {
+            display: flex;
+            gap: 10px;
+        }
+
+        .menu button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Estilos para elementos internos */
+        .wrap p {
+            font-size: 16px;
+            color: #333;
+        }
+    </style>
+
+    <div class="top-menu">
+        <div class="logo"></div>
+        <div class="menu">
+            <button>Menu 1</button>
+            <button>Menu 2</button>
+            <button>Menu 3</button>
+            <button>Menu 4</button>
+        </div>
+    </div>
+
+    <!-- Primeiro bloco wrap -->
+    <div class="wrap">
+      <h2>Conteúdo</h2>
+<p></p>
+    </div>
+
+    <!-- Segundo bloco wrap -->
+    <div class="wrap">
+        <h2>Rodapé</h2>
+        <p></p>
+    </div>
+
+</body>
+</html>
