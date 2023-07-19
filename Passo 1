@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Wrap</title>
+    <style>
+        /* Estilos apenas para visualização, você pode personalizar como desejar */
+        .wrap {
+            border: 2px solid #333;
+            padding: 20px;
+            background-color: #f0f0f0;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Estilos para elementos internos */
+        .wrap p {
+            font-size: 16px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <p>Este é um exemplo de conteúdo envolvido por um "wrap" usando uma div.</p>
+        <p>O conteúdo aqui pode ser qualquer coisa - texto, imagens, outros elementos, etc.</p>
+    </div>
+</body>
+</html>
