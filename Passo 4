@@ -21,7 +21,7 @@
 
         .wrap {
             display: flex;
-            flex-direction: row; /* Alteração para dispor os elementos verticalmente */
+            flex-direction: row; 
             align-items: center;
             border: 2px solid #333;
             padding: 20px;
