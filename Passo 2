@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Wrap com Logo e Menu</title>
+    <style>
+        /* Estilos apenas para visualização, você pode personalizar como desejar */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .wrap {
+            display: flex;
+            align-items: center;
+            border: 2px solid #333;
+            padding: 20px;
+            background-color: #f0f0f0;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            width: 100px;
+            height: 60px;
+            margin-right: 20px;
+            background-color: #ccc; /* A cor da logo, substitua pelo caminho da imagem da logo */
+        }
+
+        .menu {
+            display: flex;
+            gap: 10px;
+        }
+
+        .menu button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Estilos para elementos internos */
+        .wrap p {
+            font-size: 16px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="logo"></div>
+        <div class="menu">
+            <button>Menu 1</button>
+            <button>Menu 2</button>
+            <button>Menu 3</button>
+            <button>Menu 4</button>
+        </div>
+    </div>
+</body>
+</html>
