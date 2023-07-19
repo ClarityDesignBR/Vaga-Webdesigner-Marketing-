@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Passo 4</title><br>
-<body>
+    <title>Passo 3</title>
     <style>
         /* Estilos*/
         body {
@@ -22,6 +21,7 @@
 
         .wrap {
             display: flex;
+            flex-direction: row; /* Alteração para dispor os elementos verticalmente */
             align-items: center;
             border: 2px solid #333;
             padding: 20px;
@@ -30,7 +30,18 @@
             margin: 20px auto; /* Espaçamento entre os blocos wrap */
         }
 
-        .top-menu {
+		.bloco {
+            display: flex;
+            flex-direction: column; /* Alteração para dispor os elementos verticalmente */
+            align-items:left;
+            border: 2px solid #333;
+            padding: 10px;
+            background-color: #828282;
+            max-width: 150px;
+            margin: 20px auto; /* Espaçamento entre os blocos wrap */
+        }
+		
+		.top-menu {
             display: flex;
             align-items: center;
             border: 2px solid #333;
@@ -39,7 +50,7 @@
             max-width: 600px;
             margin: 20px auto; /* Espaçamento entre os blocos wrap */
         }
-
+		
         .logo {
             width: 100px;
             height: 60px;
@@ -65,12 +76,6 @@
             font-size: 16px;
             color: #333;
         }
-
-        /* Estilos para colunas */
-        .col {
-            flex: 1;
-            padding: 0 10px;
-        }
     </style>
 
     <div class="top-menu">
@@ -83,27 +88,30 @@
         </div>
     </div>
 
-    <!-- Primeira seção -->
+    <!-- Primeiro bloco wrap -->
     <div class="wrap">
         
-        <div class="col">
-            <h3>Coluna 1</h3>
-            <p>Conteúdo da coluna 1</p>
+        <!-- Primeira estrutura de conteúdo paralelo -->
+        <div class="bloco">
+            <h3>Subtítulo 1</h3>
+            <p>Conteúdo do subitem 1.</p>
         </div>
-        <div class="col">
-            <h3>Coluna 2</h3>
-            <p>Conteúdo da coluna 2</p>
+        <!-- Segunda estrutura de conteúdo paralelo -->
+        <div class="bloco">
+            <h3>Subtítulo 2</h3>
+            <p>Conteúdo do subitem 2.</p>
         </div>
-        <div class="col">
-            <h3>Coluna 3</h3>
-            <p>Conteúdo da coluna 3</p>
+        <!-- Terceira estrutura de conteúdo paralelo -->
+        <div class="bloco">
+            <h3>Subtítulo 3</h3>
+            <p>Conteúdo do subitem 3.</p>
         </div>
     </div>
 
-    <!-- Segunda seção -->
+    <!-- Segundo bloco wrap -->
     <div class="wrap">
-        <h2>Rodapé</h2>
-        <p></p>
+        <h2><em>Rodapé</em></h2>
+<p></p>
     </div>
 
 </body>
